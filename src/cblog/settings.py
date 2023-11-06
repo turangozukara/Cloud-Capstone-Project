@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'turan', # database name in RDS is written here
         'USER': 'turan', # database master username in RDS is written here
         'PASSWORD': '147852369',
-        'HOST': 'database-1.c3ivokumtvks.us-east-1.rds.amazonaws.com', 
+        'HOST': 'turan.c3ivokumtvks.us-east-1.rds.amazonaws.com', 
         'PORT': '3306' # database port is written here
     }
 }
