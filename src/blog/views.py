@@ -16,7 +16,6 @@ def post_list(request):
 
 @login_required()
 def post_create(request):
-    # form = PostForm(request.POST or None, request.FILES or None)
 
     form = PostForm()
     if request.method == "POST":
